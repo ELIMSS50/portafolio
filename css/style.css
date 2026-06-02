@@ -873,6 +873,19 @@ ul { list-style: none; }
   color: var(--accent-600);
 }
 
+.project-card__demo-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 500;
+  background: var(--accent-100);
+  color: var(--accent-600);
+  border: 1px dashed var(--accent-300);
+  padding: 3px 10px;
+  border-radius: 5px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
 /* ─── Contact ───────────────────────────────────────────────────── */
 .contact__container { text-align: center; }
 
@@ -1023,5 +1036,4 @@ ul { list-style: none; }
   .hero__current { flex-wrap: wrap; }
   .contact__card { flex-direction: column; text-align: center; }
   .contact-form__btn { width: 100%; justify-content: center; }
-  .skills { grid-template-columns: repeat(2, 1fr); }
 }

@@ -1,0 +1,114 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[stretch=95]{setspace}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+
+\geometry{margin=1.3cm, bottom=1cm}
+
+% Colores
+\definecolor{primary}{HTML}{7D6253}
+\definecolor{accent}{HTML}{8A6548}
+\definecolor{textmuted}{HTML}{555555}
+\definecolor{rulecolor}{HTML}{DDD7CC}
+
+% Formato de títulos de sección
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\vspace{-0.5em}\color{rulecolor}\rule{\textwidth}{0.6pt}]
+\titlespacing{\section}{0pt}{0.8em}{0.3em}
+
+% Sin numeración de páginas
+\pagestyle{empty}
+
+% Hipervínculos
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=primary}
+
+\begin{document}
+
+% ─── HEADER ──────────────────────────────────────────────────────
+\begin{minipage}[t]{0.18\textwidth}
+  \raisebox{-0.3\height}{\includegraphics[width=\textwidth,keepaspectratio]{../assets/luis.jpeg}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.77\textwidth}
+  {\Large\bfseries\color{primary} Luis Felipe Rodriguez Rico} \\[0.15em]
+  {\normalsize\color{accent} Python Developer --- Data \& Process Optimization} \\[0.2em]
+  {\small
+  \color{textmuted}
+  \href{mailto:luisfeliperico19@gmail.com}{luisfeliperico19@gmail.com} $|$
+  \href{https://github.com/ELIMSS50}{github.com/ELIMSS50} $|$
+  \href{https://linkedin.com/in/luis-felipe-rodriguez-rico-653b0b221}{LinkedIn}
+  }
+\end{minipage}
+
+\vspace{0.3em}
+
+% ─── PERFIL ───────────────────────────────────────────────────────
+\section{Perfil Profesional}
+Desarrollo y optimización de scripts y pipelines en Python orientados al procesamiento de datos, automatización de flujos y refactorización de código legacy en entornos de producción. Con base en Data Analytics, mi trayectoria evolucionó hacia ingeniería de datos, desarrollo backend con APIs y frameworks Python, y optimización de procesos críticos en servidor. Me especializo en convertir procesos ineficientes en soluciones robustas y escalables.
+
+% ─── HABILIDADES ──────────────────────────────────────────────────
+\section{Habilidades Técnicas}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+  \textbf{Lenguajes}    & Python, C\#, C/C++, TypeScript, SQL \\
+  \textbf{Frameworks}   & .NET, Angular, Node.js, Laravel, PHP \\
+  \textbf{Bases de Datos} & PostgreSQL, MySQL, SQL Server \\
+  \textbf{Herramientas} & Docker, Cloudflare, Git, APIs REST \\
+  \textbf{Especialidad} & ETL pipelines, automatización, refactorización, optimización \\
+\end{tabularx}
+
+% ─── EXPERIENCIA ──────────────────────────────────────────────────
+\section{Experiencia Profesional}
+
+\noindent\textbf{Data Analyst} \hfill \textbf{NRTEC Desarrollos Tecnológicos} \\
+\textit{2025 -- Presente}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.1em}]
+  \item Desarrollé optimizaciones en procesos de conciliación de información, reduciendo tiempos de análisis hasta un 70\%.
+  \item Apoyé en el desarrollo de una herramienta interna para análisis de datos.
+\end{itemize}
+
+\noindent\textbf{Data Analyst} \hfill \textbf{Hackathon Magna} \\
+\textit{2025}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.1em}]
+  \item Apliqué técnicas de análisis de datos para resolver problemas de negocio bajo condiciones de tiempo limitado, desarrollando soluciones orientadas a la optimización de procesos.
+\end{itemize}
+
+\noindent\textbf{Participante} \hfill \textbf{ICPC — Programación Competitiva} \\
+\textit{2025}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0em}]
+  \item Resolución de problemas algorítmicos bajo presión de tiempo y trabajo en equipo.
+\end{itemize}
+
+% ─── EDUCACIÓN ────────────────────────────────────────────────────
+\section{Educación}
+\noindent\textbf{Ingeniería en Computación} \hfill \textit{2021 -- 2026} \\
+Universidad Autónoma de San Luis Potosí \\[0.2em]
+
+% ─── PROYECTOS ────────────────────────────────────────────────────
+\section{Proyectos Destacados}
+
+\noindent\textbf{Visualizador de Grafos y Algoritmos} $|$ \href{https://github.com/ELIMSS50/EditordeGrafos}{github.com/ELIMSS50/EditordeGrafos} \\
+Interfaz gráfica para visualización y ejecución interactiva de algoritmos sobre grafos (C\#, .NET, WPF). \\[0.1em]
+
+\noindent\textbf{Sistema de Cafetería Inteligente} $|$ \href{https://github.com/ELIMSS50/BeanRush}{github.com/ELIMSS50/BeanRush} \\
+Aplicación web y móvil para gestión de cafetería con roles, Gmail API y panel de administración (Angular, Node.js). \\[0.1em]
+
+\noindent\textbf{App Móvil de Tienda con Autocobro} $|$ \href{https://github.com/ELIMSS50/Proyecto-Movil}{github.com/ELIMSS50/Proyecto-Movil} \\
+Aplicación móvil de comercio con autocobro integrado y QR para pagos sin contacto (Mobile, QR).
+
+% ─── IDIOMAS Y CERTIFICACIONES ────────────────────────────────────
+\section{Idiomas \& Certificaciones}
+
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+  \textbf{Español} & Nativo \\
+  \textbf{Inglés}  & B1 (Intermedio) \\
+  \textbf{Google}  & Diseño de Aplicaciones \\
+\end{tabularx}
+
+
+
+\end{document}

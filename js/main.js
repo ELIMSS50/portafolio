@@ -48,6 +48,7 @@ const translations = {
     proj3_desc:     "Aplicación móvil de comercio con sistema de autocobro integrado y generación de códigos QR para pagos sin contacto y validación de productos.",
     proj4_title:    "Sistema de Análisis de Datos con ML",
     proj4_desc:     "Plataforma de análisis de datos con módulos de aprendizaje automático para reconocimiento de patrones, clasificación y análisis predictivo.",
+    proj4_demo:     "Demo próximamente",
 
     contact_title: "Contacto",
     contact_sub:   "Estoy abierto a oportunidades, colaboraciones y conversaciones interesantes.",
@@ -109,6 +110,7 @@ const translations = {
     proj3_desc:     "Mobile commerce application with integrated self-checkout system and QR code generation for contactless payments and product validation.",
     proj4_title:    "ML Data Analysis System",
     proj4_desc:     "Data analysis platform with machine learning modules for pattern recognition, classification, and predictive analytics.",
+    proj4_demo:     "Demo coming soon",
 
     contact_title: "Contact",
     contact_sub:   "I'm open to opportunities, collaborations, and interesting conversations.",

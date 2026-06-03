@@ -551,6 +551,17 @@ ul { list-style: none; }
   color: var(--primary-500);
   transform: translateY(-2px);
 }
+.btn--cv {
+  background: transparent;
+  color: var(--accent-600);
+  border: 1.5px solid var(--accent-300);
+}
+.btn--cv:hover {
+  background: var(--accent-100);
+  border-color: var(--accent-500);
+  color: var(--accent-700);
+  transform: translateY(-2px);
+}
 
 /* ─── Hero socials ──────────────────────────────────────────────── */
 .hero__socials {
@@ -691,6 +702,38 @@ ul { list-style: none; }
 }
 .skill-icon:hover span {
   color: var(--text);
+}
+
+.skill-level {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  transition: all var(--ease);
+  margin-top: 2px;
+}
+.skill-level--expert {
+  background: var(--primary-100);
+  color: var(--primary-600);
+  border: 1px solid var(--primary-200);
+}
+.skill-level--advanced {
+  background: var(--accent-100);
+  color: var(--accent-600);
+  border: 1px solid var(--accent-200);
+}
+.skill-level--intermediate {
+  background: var(--primary-100);
+  color: var(--primary-500);
+  border: 1px solid var(--primary-200);
+  opacity: 0.8;
+}
+
+.about__cta {
+  margin-top: 28px;
+  margin-bottom: 12px;
 }
 
 /* ─── Timeline ──────────────────────────────────────────────────── */

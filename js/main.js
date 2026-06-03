@@ -11,6 +11,7 @@ const translations = {
     hero_desc:         "Desarrollo y optimización de scripts y pipelines en Python para procesamiento de datos, automatización de flujos y refactorización de código legacy en entornos de producción.",
     hero_cta_projects: "Ver proyectos",
     hero_cta_contact:  "Contactarme",
+    hero_cta_cv: "Descargar CV",
     hero_stat_projects_val: "4+",
     hero_stat_projects_lbl: "Proyectos",
     hero_stat_exp_val:      "1",
@@ -23,6 +24,7 @@ const translations = {
     hero_current_txt: "Python · Optimización de procesos críticos en servidor",
 
     about_title: "Sobre mí",
+    about_cta_cv: "Descargar CV",
     about_p1:    "Desarrollo y optimización de scripts y pipelines en Python orientados al procesamiento de datos, automatización de flujos y refactorización de código legacy en entornos de producción. Con base en Data Analytics, mi trayectoria evolucionó hacia ingeniería de datos, desarrollo backend con APIs y frameworks Python, y actualmente optimización de procesos críticos en servidor.",
     about_p2:    "Me especializo en convertir procesos ineficientes en soluciones robustas y escalables, combinando análisis de datos, ingeniería de software y optimización de rendimiento para mantener sistemas productivos en su punto máximo de eficiencia.",
 
@@ -73,6 +75,7 @@ const translations = {
     hero_desc:         "Development and optimization of Python scripts and pipelines for data processing, workflow automation, and legacy code refactoring in production environments.",
     hero_cta_projects: "View projects",
     hero_cta_contact:  "Contact me",
+    hero_cta_cv: "Download CV",
     hero_stat_projects_val: "4+",
     hero_stat_projects_lbl: "Projects",
     hero_stat_exp_val:      "1",
@@ -85,6 +88,7 @@ const translations = {
     hero_current_txt: "Python · Critical server-side process optimization",
 
     about_title: "About me",
+    about_cta_cv: "Download CV",
     about_p1:    "I develop and optimize Python scripts and pipelines for data processing, workflow automation, and legacy code refactoring in production environments. Starting from Data Analytics, my career evolved into data engineering, backend development with Python APIs and frameworks, and currently critical server-side process optimization.",
     about_p2:    "I specialize in turning inefficient processes into robust, scalable solutions, combining data analysis, software engineering, and performance optimization to keep production systems running at peak efficiency.",
 

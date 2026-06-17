@@ -1,6 +1,7 @@
 \documentclass[10pt,a4paper]{article}
 
-\usepackage[stretch=95]{setspace}
+\usepackage{setspace}
+\setstretch{0.9}
 \usepackage{geometry}
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -9,7 +10,7 @@
 \usepackage{titlesec}
 \usepackage{tabularx}
 
-\geometry{margin=1.3cm, bottom=1cm}
+\geometry{margin=1.5cm}
 
 % Colores
 \definecolor{primary}{HTML}{7D6253}
@@ -19,7 +20,7 @@
 
 % Formato de títulos de sección
 \titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\vspace{-0.5em}\color{rulecolor}\rule{\textwidth}{0.6pt}]
-\titlespacing{\section}{0pt}{0.8em}{0.3em}
+\titlespacing{\section}{0pt}{0.6em}{0.2em}
 
 % Sin numeración de páginas
 \pagestyle{empty}
@@ -30,13 +31,13 @@
 \begin{document}
 
 % ─── HEADER ──────────────────────────────────────────────────────
-\begin{minipage}[t]{0.18\textwidth}
+\begin{minipage}[t]{0.15\textwidth}
   \raisebox{-0.3\height}{\includegraphics[width=\textwidth,keepaspectratio]{../assets/luis.jpeg}}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.77\textwidth}
+\begin{minipage}[t]{0.80\textwidth}
   {\Large\bfseries\color{primary} Luis Felipe Rodriguez Rico} \\[0.15em]
-  {\normalsize\color{accent} Python Developer --- Data \& Process Optimization} \\[0.2em]
+  {\normalsize\color{accent} Python Developer --- Data \& Process Optimization} \\[0.15em]
   {\small
   \color{textmuted}
   \href{mailto:luisfeliperico19@gmail.com}{luisfeliperico19@gmail.com} $|$
@@ -49,66 +50,64 @@
 
 % ─── PERFIL ───────────────────────────────────────────────────────
 \section{Perfil Profesional}
-Desarrollo y optimización de scripts y pipelines en Python orientados al procesamiento de datos, automatización de flujos y refactorización de código legacy en entornos de producción. Con base en Data Analytics, mi trayectoria evolucionó hacia ingeniería de datos, desarrollo backend con APIs y frameworks Python, y optimización de procesos críticos en servidor. Me especializo en convertir procesos ineficientes en soluciones robustas y escalables.
+Desarrollo y optimización de scripts y pipelines en Python orientados al procesamiento de datos,
+automatización de flujos y refactorización de código legacy en entornos de producción. Con base en Data Analytics,
+mi trayectoria evolucionó hacia ingeniería de datos, desarrollo backend con APIs y frameworks Python,
+y optimización de procesos críticos en servidor. Me especializo en convertir procesos ineficientes en
+soluciones robustas y escalables.
 
 % ─── HABILIDADES ──────────────────────────────────────────────────
 \section{Habilidades Técnicas}
 \begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
-  \textbf{Lenguajes}    & Python, C\#, C/C++, TypeScript, SQL \\
-  \textbf{Frameworks}   & .NET, Angular, Node.js, Laravel, PHP \\
-  \textbf{Bases de Datos} & PostgreSQL, MySQL, SQL Server \\
-  \textbf{Herramientas} & Docker, Cloudflare, Git, APIs REST \\
-  \textbf{Especialidad} & ETL pipelines, automatización, refactorización, optimización \\
+  \textbf{Lenguajes}      & Python, SQL, Dart, TypeScript, C\#, C++, Java \\
+  \textbf{Frameworks/Lib} & FastAPI, Uvicorn, Pandas, NumPy, Flutter, Node.js, Vite \\
+  \textbf{Bases de Datos} & MySQL, SQLite, PostgreSQL, MongoDB (Atlas), MariaDB \\
+  \textbf{Herramientas}   & Docker, Cloudflare, Git, APIs REST, Procesamiento en Paralelo \\
+  \textbf{Especialidad}   & Optimización de consultas, ETL pipelines, Backend, Automatización \\
 \end{tabularx}
 
 % ─── EXPERIENCIA ──────────────────────────────────────────────────
 \section{Experiencia Profesional}
 
-\noindent\textbf{Data Analyst} \hfill \textbf{NRTEC Desarrollos Tecnológicos} \\
+\noindent\textbf{Data Analyst \& Backend Developer} \hfill \textbf{NRTEC Desarrollos Tecnológicos} \\
 \textit{2025 -- Presente}
-\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.1em}]
-  \item Desarrollé optimizaciones en procesos de conciliación de información, reduciendo tiempos de análisis hasta un 70\%.
-  \item Apoyé en el desarrollo de una herramienta interna para análisis de datos.
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Diseñé e implementé pipelines de datos optimizados en \textbf{Python}, reduciendo los tiempos de análisis y comparación en un 70\% mediante procesamiento en paralelo, ingesta por \textbf{chunks} y depuración automatizada con \textbf{Pandas} y \textbf{NumPy}.
+  \item Desarrollé una plataforma web interna integrando un backend de alto rendimiento con \textbf{FastAPI / Uvicorn} y un frontend con \textbf{Node.js (Vite)}, automatizando la extracción desde múltiples esquemas de bases de datos.
+  \item Eliminé procesos manuales de reporteo en Excel mediante la creación de un sistema de generación y análisis automatizado de un solo clic, acelerando la toma de decisiones del equipo operativo.
 \end{itemize}
 
-\noindent\textbf{Data Analyst} \hfill \textbf{Hackathon Magna} \\
+\noindent\textbf{Data Analyst (Hackathon)} \hfill \textbf{Hackathon Magna} \\
 \textit{2025}
-\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.1em}]
-  \item Apliqué técnicas de análisis de datos para resolver problemas de negocio bajo condiciones de tiempo limitado, desarrollando soluciones orientadas a la optimización de procesos.
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Lideré la fase de ingeniería de características (\textit{feature engineering}) bajo NDA, realizando análisis exploratorio de datos crudos (EDA), detección de patrones complejos y asignación de pesos estadísticos para modelos predictivos.
+  \item Diseñé y estructuré datasets limpios y normalizados en \textbf{Python}, optimizando el flujo de trabajo del equipo para la ejecución inmediata de algoritmos de predicción.
 \end{itemize}
 
 \noindent\textbf{Participante} \hfill \textbf{ICPC — Programación Competitiva} \\
 \textit{2025}
-\begin{itemize}[leftmargin=*,nosep,after=\vspace{0em}]
-  \item Resolución de problemas algorítmicos bajo presión de tiempo y trabajo en equipo.
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Resolución de problemas complejos de lógica, estructuras de datos avanzadas y optimización algorítmica bajo alta presión de tiempo en entornos colaborativos.
 \end{itemize}
 
 % ─── EDUCACIÓN ────────────────────────────────────────────────────
 \section{Educación}
-\noindent\textbf{Ingeniería en Computación} \hfill \textit{2021 -- 2026} \\
-Universidad Autónoma de San Luis Potosí \\[0.2em]
+\noindent\textbf{Ingeniería en Computación} \hfill \textit{2021 -- Diciembre 2026} \\
+Universidad Autónoma de San Luis Potosí \hfill \textit{Disponibilidad de tiempo completo} \\[0.05em]
 
 % ─── PROYECTOS ────────────────────────────────────────────────────
 \section{Proyectos Destacados}
 
-\noindent\textbf{Visualizador de Grafos y Algoritmos} $|$ \href{https://github.com/ELIMSS50/EditordeGrafos}{github.com/ELIMSS50/EditordeGrafos} \\
-Interfaz gráfica para visualización y ejecución interactiva de algoritmos sobre grafos (C\#, .NET, WPF). \\[0.1em]
-
 \noindent\textbf{Sistema de Cafetería Inteligente} $|$ \href{https://github.com/ELIMSS50/BeanRush}{github.com/ELIMSS50/BeanRush} \\
-Aplicación web y móvil para gestión de cafetería con roles, Gmail API y panel de administración (Angular, Node.js). \\[0.1em]
+Plataforma full-stack para gestión de roles y pedidos en tiempo real, integrada con persistencia en \textbf{MongoDB Atlas} y notificaciones automáticas vía \textbf{Gmail API} (Angular, Node.js). \\[0em]
 
 \noindent\textbf{App Móvil de Tienda con Autocobro} $|$ \href{https://github.com/ELIMSS50/Proyecto-Movil}{github.com/ELIMSS50/Proyecto-Movil} \\
-Aplicación móvil de comercio con autocobro integrado y QR para pagos sin contacto (Mobile, QR).
+Aplicación móvil de comercio con sistema de pagos sin contacto mediante escaneo y generación dinámica de códigos QR, conectada a un backend escalable en \textbf{TypeScript} (\textbf{Flutter, Dart}).
 
-% ─── IDIOMAS Y CERTIFICACIONES ────────────────────────────────────
-\section{Idiomas \& Certificaciones}
-
+% ─── IDIOMAS ──────────────────────────────────────────────────────
+\section{Idiomas}
 \begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
-  \textbf{Español} & Nativo \\
   \textbf{Inglés}  & B1 (Intermedio) \\
-  \textbf{Google}  & Diseño de Aplicaciones \\
 \end{tabularx}
-
-
 
 \end{document}

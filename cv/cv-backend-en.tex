@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{setspace}
+\setstretch{0.9}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+
+\geometry{margin=1.5cm}
+
+% Colores
+\definecolor{primary}{HTML}{7D6253}
+\definecolor{accent}{HTML}{8A6548}
+\definecolor{textmuted}{HTML}{555555}
+\definecolor{rulecolor}{HTML}{DDD7CC}
+
+% Formato de títulos de sección
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\vspace{-0.5em}\color{rulecolor}\rule{\textwidth}{0.6pt}]
+\titlespacing{\section}{0pt}{0.6em}{0.2em}
+
+% Sin numeración de páginas
+\pagestyle{empty}
+
+% Hipervínculos
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=primary}
+
+\begin{document}
+
+% ─── HEADER ──────────────────────────────────────────────────────
+\begin{minipage}[t]{0.15\textwidth}
+  \raisebox{-0.3\height}{\includegraphics[width=\textwidth,keepaspectratio]{../assets/luis.jpeg}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.80\textwidth}
+  {\Large\bfseries\color{primary} Luis Felipe Rodriguez Rico} \\[0.15em]
+  {\normalsize\color{accent} Backend Developer --- Java \& Services Optimization} \\[0.15em]
+  {\small
+  \color{textmuted}
+  \href{mailto:luisfeliperico19@gmail.com}{luisfeliperico19@gmail.com} $|$
+  \href{https://github.com/ELIMSS50}{github.com/ELIMSS50} $|$
+  \href{https://linkedin.com/in/luis-felipe-rodriguez-rico-653b0b221}{LinkedIn}
+  }
+\end{minipage}
+
+\vspace{0.3em}
+
+% ─── PROFILE ─────────────────────────────────────────────────────
+\section{Professional Profile}
+Backend Developer focused on analysis, optimization, and stabilization of production services. With over a year of hands-on experience resolving critical production incidents, I have a solid command of \textbf{Java} applying object-oriented programming, collections, and structured exception handling. Specialized in consuming, modifying, and integrating \textbf{RESTful APIs}, optimizing SQL queries, and mitigating high server resource usage through efficient algorithmic logic.
+
+% ─── SKILLS ───────────────────────────────────────────────────────
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+  \textbf{Languages}       & Java, C\#, Python, TypeScript, C++ \\
+  \textbf{Frameworks/Lib}  & Spring Boot, FastAPI, Node.js, React, Bootstrap \\
+  \textbf{Databases}       & MySQL, PostgreSQL, SQLite, MongoDB (Atlas) \\
+  \textbf{Tools}           & Git, REST APIs, Docker, Cloudflare \\
+  \textbf{Methodologies}   & Scrum, Kanban, Legacy Code Refactoring, Technical Documentation \\
+\end{tabularx}
+
+% ─── EXPERIENCE ───────────────────────────────────────────────────
+\section{Professional Experience}
+
+\noindent\textbf{Backend Developer \& Data Analyst} \hfill \textbf{NRTEC Desarrollos Tecnológicos} \\
+\textit{2025 -- Present}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Actively participated in analysis, development, and testing workflows for \textbf{stabilizing production services} and refactoring complex legacy flows.
+  \item Consumed, integrated, and modified \textbf{RESTful} service flows for data extraction automation, mitigating high server resource usage and optimizing existing infrastructure.
+  \item Efficiently identified root causes of performance issues in relational databases, reducing processing times by 70\% through \textbf{SQL} query optimization.
+\end{itemize}
+
+\noindent\textbf{Data Analyst (Hackathon)} \hfill \textbf{Hackathon Magna} \\
+\textit{2025}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Led the \textit{feature engineering} phase under NDA: exploratory data analysis (EDA) on raw data, complex pattern detection, and construction of normalized datasets for predictive models, with iterative deliveries under agile methodologies.
+\end{itemize}
+
+\noindent\textbf{Contestant} \hfill \textbf{ICPC --- Competitive Programming} \\
+\textit{2025}
+\begin{itemize}[leftmargin=*,nosep,after=\vspace{0.05em},itemsep=0pt]
+  \item Solved complex logic problems using advanced data structures and algorithmic optimization under high time pressure in collaborative environments.
+\end{itemize}
+
+% ─── EDUCATION ────────────────────────────────────────────────────
+\section{Education}
+\noindent\textbf{Computer Engineering} \hfill \textit{2021 -- December 2026} \\
+Universidad Autónoma de San Luis Potosí \hfill \textit{Full-time availability} \\[0.05em]
+
+% ─── PROJECTS ─────────────────────────────────────────────────────
+\section{Featured Projects}
+
+\noindent\textbf{Smart Cafeteria System} $|$ \href{https://github.com/ELIMSS50/BeanRush}{github.com/ELIMSS50/BeanRush} \\
+Full-stack platform with a \textbf{Node.js} backend, \textbf{MongoDB Atlas} persistence, role-based access control, and automatic notifications via \textbf{Gmail API}. Modular architecture with REST endpoint consumption and role-based authorization logic. (\textbf{Angular, Node.js}).
+
+% ─── LANGUAGES ────────────────────────────────────────────────────
+\section{Languages}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+  \textbf{English}  & B1 (Intermediate) \\
+\end{tabularx}
+
+\end{document}
